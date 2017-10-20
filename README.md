@@ -14,3 +14,9 @@ This is not only by design, it is necessary in order to properly interact with t
 ### There are no safetys built into the code
 
 API limits are still at play here, and if you try to run too much too fast, it's easy to exceed them.
+
+### Using this code:
+run:
+    ```npm install ```
+
+This should install all dependencies, such as the Shopify node API and any other libs
