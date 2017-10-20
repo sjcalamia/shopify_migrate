@@ -2,15 +2,15 @@ const request = require('request')
 const Shopify = require('shopify-api-node')
 
 const dev = Shopify({
-              shopName : '2betties-dev',
-              apiKey : '4f0cc8a711b496c1b0c8b0c6ed5bef90',
-              password: '45a4236aadb886183bc2f4a6d4fc6b4e'
+              shopName : 'storeName-dev',
+              apiKey : '%%%',
+              password: '%%%'
   })
 
 const prod = Shopify({
-              shopName : '2betties',
-              apiKey : 'af985aaf034488a29a6ad1d2ef3d8ef4',
-              password: '03ba286dc56065c08a3cab297bad5725'
+              shopName : 'storeName',
+              apiKey : '%%%',
+              password: '%%%'
   })
 console.log(prod)
 
