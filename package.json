@@ -1,0 +1,22 @@
+{
+  "name": "shopify_migrate",
+  "version": "0.0.1",
+  "description": "A quick and dirty app to migrate from a development store to a production store",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "shopify",
+    "migrate"
+  ],
+  "author": "steve@calamia.net",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "dependencies": {
+    "request": "^2.81.0",
+    "shopify-api-node": "^2.8.0"
+  }
+}
